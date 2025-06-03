@@ -1,26 +1,34 @@
-# Java compiled class files
+# Compiled class files
 *.class
- 
-# IntelliJ / VSCode / Eclipse төсөл
-.idea/
-.vscode/
-*.iml
- 
-# OS-н системийн файлууд
-.DS_Store
-Thumbs.db
- 
-# c compiled files
-*.o
-*.exe
- 
-# Maven / Gradle build artifacts
-target/
-build/
- 
-# Log files
+
+# Log file
 *.log
- 
-# Temporary files
-*.tmp
-*.swp
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# IntelliJ IDEA files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse files
+.settings/
+.project
+.classpath
+bin/
+
+# Maven
+target/
